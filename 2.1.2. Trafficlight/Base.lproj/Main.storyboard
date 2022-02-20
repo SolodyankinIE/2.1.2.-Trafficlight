@@ -40,11 +40,10 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="WJ0-A9-Unj"/>
                                     <constraint firstAttribute="height" constant="50" id="cy7-pj-byh"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Start">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                </buttonConfiguration>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="colourSwicthButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="meV-Xx-cHs"/>
                                 </connections>
